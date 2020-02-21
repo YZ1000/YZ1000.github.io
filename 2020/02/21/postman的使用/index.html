@@ -20,15 +20,24 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Mist","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="袁喆的博客">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="​    本博文主要从下图中的五个部分介绍postman的简单使用。 ​     1.请求方式 2.请求地址 3.请求参数 4.保存 5.环境变量 ​">
+<meta property="og:type" content="article">
+<meta property="og:title" content="postman的使用">
+<meta property="og:url" content="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="袁喆的博客">
+<meta property="og:description" content="​    本博文主要从下图中的五个部分介绍postman的简单使用。 ​     1.请求方式 2.请求地址 3.请求参数 4.保存 5.环境变量 ​">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png">
+<meta property="og:image" content="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png">
+<meta property="article:published_time" content="2020-02-21T07:15:52.000Z">
+<meta property="article:modified_time" content="2020-02-21T09:05:52.479Z">
 <meta property="article:author" content="leo">
+<meta property="article:tag" content="后端 postman">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png">
 
-<link rel="canonical" href="http://yoursite.com/archives/2019/">
+<link rel="canonical" href="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/">
 
 
 <script id="page-configurations">
@@ -36,11 +45,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false
+    isPost: true
   };
 </script>
 
-  <title>归档 | 袁喆的博客</title>
+  <title>postman的使用 | 袁喆的博客</title>
   
 
 
@@ -136,89 +145,110 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 7 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="leo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="袁喆的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          postman的使用
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-21 15:15:52 / 修改时间：17:05:52" itemprop="dateCreated datePublished" datetime="2020-02-21T15:15:52+08:00">2020-02-21</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
+        <p>​    本博文主要从下图中的五个部分介绍postman的简单使用。</p>
+<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png" class="" title="首页"></p>
+<p>1.请求方式 2.请求地址 3.请求参数 4.保存 5.环境变量</p>
+<p>​    <a id="more"></a></p>
+<h3 id="请求方式"><a href="#请求方式" class="headerlink" title="请求方式"></a>请求方式</h3><p>常用的请求方式有GET, POST, PUT, DELETE。</p>
+<p><strong>GET:</strong> 一般用于从后端获取数据</p>
+<p><strong>POST:</strong> 给后端发送数据（偏向创建新数据）</p>
+<p><strong>PUT:</strong> 给后端发送数据（偏向更新已存在的数据）</p>
+<p><strong>DELETE:</strong> 一般用于删除请求</p>
+<h3 id="请求地址"><a href="#请求地址" class="headerlink" title="请求地址"></a>请求地址</h3><p>api请求地址，一般使用名词。</p>
+<p>例如：<a href="http://127.0.0.1:5000/appliance/equipment" target="_blank" rel="noopener">http://127.0.0.1:5000/appliance/equipment</a></p>
+<h3 id="请求参数"><a href="#请求参数" class="headerlink" title="请求参数"></a>请求参数</h3><p>经常在Params和Body里面填请求参数。</p>
+<p>POST和PUT请求在Body里面选x-www-form-urlencoded 填参数</p>
+<p>GET和DELETE请求在Params里面填参数</p>
+<p>注：</p>
+<ul>
+<li><p>传输数组。以数组ids为例：</p>
+<img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png" class="" title="数组ids">
+</li>
+<li><p>params中的参数会自动跟在链接后面，Body中的参数不会。</p>
+</li>
+</ul>
+<h3 id="将此请求保存，以重复使用"><a href="#将此请求保存，以重复使用" class="headerlink" title="将此请求保存，以重复使用"></a>将此请求保存，以重复使用</h3><p>保存后会保存到左侧的Collections, 保存前必须建立一个文件夹（collection）</p>
+<h3 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h3><p>​    一般的网页登录验证通过后会返回给你一个<a href="https://baike.baidu.com/item/Token/2615248?fr=aladdin" target="_blank" rel="noopener">token</a>。如果访问有登录验证的网页需要将token 填在 Authorization中的Token栏中。但是每个token经常变动，每次请求都需要复制粘贴，太麻烦。</p>
+<p>​    所以将token设置为环境变量，在 Authorization中的Token栏中填入</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;token&#125;&#125;</span><br></pre></td></tr></table></figure>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-09-01T16:15:31+08:00"
-              content="2019-09-01">
-          09-01
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/" itemprop="url">
-            <span itemprop="name">sublime3 配置 c#环境</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-08-15T12:39:00+08:00"
-              content="2019-08-15">
-          08-15
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/08/15/C-C-%E8%AF%AD%E8%A8%80%E6%9D%82%E8%AE%B0/" itemprop="url">
-            <span itemprop="name">C/C++语言杂记</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-07-25T20:09:59+08:00"
-              content="2019-07-25">
-          07-25
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/07/25/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url">
-            <span itemprop="name">设计模式的学习笔记</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
+<p>以引用环境变量（type选 Bearer Token）。</p>
+<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png" class="" title="token"></p>
+<p>具体怎么设置token环境变量，可以百度。</p>
 
     </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%90%8E%E7%AB%AF-postman/" rel="tag"># 后端 postman</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" rel="prev" title="git多人项目常用命令">
+      <i class="fa fa-chevron-left"></i> git多人项目常用命令
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -269,6 +299,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#请求方式"><span class="nav-number">1.</span> <span class="nav-text">请求方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请求地址"><span class="nav-number">2.</span> <span class="nav-text">请求地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请求参数"><span class="nav-number">3.</span> <span class="nav-text">请求参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将此请求保存，以重复使用"><span class="nav-number">4.</span> <span class="nav-text">将此请求保存，以重复使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#环境变量"><span class="nav-number">5.</span> <span class="nav-text">环境变量</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
