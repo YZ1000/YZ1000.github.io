@@ -141,6 +141,90 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="leo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="袁喆的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/" class="post-title-link" itemprop="url">不完美越狱插件导致不能开机</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-21 13:41:45 / 修改时间：14:29:00" itemprop="dateCreated datePublished" datetime="2020-02-21T13:41:45+08:00">2020-02-21</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h2><p>​    <strong>机型</strong>：iPhone8 IOS3.3.1</p>
+<p>​    <strong>越狱方式</strong>:Linux + checkra1n</p>
+<p>​    安装了一个插件后，卡在重启springboard界面，只能强制关机重启（按一下音量+,按一下音量-，再长按关机键）。重启后自然入狱。</p>
+<p>​    尝试再次越狱，然后卡在了 Entered download mode界面,强制重启后白苹果。再次强制重启进入入狱状态(正常启动，但是没有越狱)。</p>
+<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p1.png" class="" width="300"></p>
+<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p2.JPG" class="" width="300"></p>
+<h2 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h2><p>​    当卡在Entered download mode 界面的时候其实已经完成越狱，但是安装的插件导致不能以越狱状态启动。</p>
+<h2 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h2><ol>
+<li><p>先强制重启进入未越狱状态的系统</p>
+</li>
+<li><p>打开越狱工具，选择Options</p>
+<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p3.png" class="" width="500">
+</li>
+<li><p>选中安全启动，然后返回。</p>
+<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p4.png" class="" width="500">
+</li>
+<li><p>执行一遍越狱流程，就能以越狱状态（安全模式）启动。</p>
+</li>
+<li><p>这时发现能再次进入Cydia，将导致白苹果的插件卸载。（一般是你安装的最后一个插件，不是的话。从最后一个往前，一个一个试，实在不行就卸载所有插件从头开始）</p>
+</li>
+<li><p>退出安全模式</p>
+<p>重启springboard发现还在安全模式，手机里也找不到退出安全模式的方法。</p>
+<p>我的解决方案是 不要勾选安全模式，再次越狱。</p>
+<p>如果有大佬知道不用重启，退出安全模式的方法的话，烦请告知。</p>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/20/%E4%B9%8C%E7%8F%AD%E5%9B%BE%E6%8D%A2%E6%BA%90-%E6%B2%A1%E6%9C%89vim%E7%9A%84%E6%83%85%E5%86%B5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -497,12 +581,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
