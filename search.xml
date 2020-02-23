@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>flask-mongoengine</title>
-    <url>/2020/02/22/flask-mongoengine/</url>
+    <url>/yz1000.git/2020/02/22/flask-mongoengine/</url>
     <content><![CDATA[<p><a href="https://pypi.org/project/flask-mongoengine/" target="_blank" rel="noopener">参考1</a></p>
 <p><a href="https://dormousehole.readthedocs.io/en/latest/patterns/mongoengine.html#id1" target="_blank" rel="noopener">参考2</a></p>
 <p><a href="https://segmentfault.com/a/1190000008025156" target="_blank" rel="noopener">参考3</a></p>
@@ -102,7 +102,7 @@
   </entry>
   <entry>
     <title>一个简单的flask应用</title>
-    <url>/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/</url>
+    <url>/yz1000.git/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<p><a href="https://dormousehole.readthedocs.io/en/latest/quickstart.html" target="_blank" rel="noopener">参考</a></p>
 <p>本文以</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from flask import Flask</span><br><span class="line">app &#x3D; Flask(__name__)</span><br><span class="line"></span><br><span class="line">@app.route(&#39;&#x2F;&#39;)</span><br><span class="line">def hello_world():</span><br><span class="line">    return &#39;Hello, World!&#39;</span><br></pre></td></tr></table></figure>
@@ -117,7 +117,7 @@
 <p>　第三行是一个装饰器，他的作用是：当你访问前端网站根目录时，前端会向后端请求根目录处理逻辑，后端服务器会给前端返回 被本装饰器装饰的函数 的运行结果。(1. 本行中(‘/‘)代表服务器根目录。 2. 装饰器会作用于他后面紧跟着的那个函数。)</p>
 <p>​    <strong>附：</strong></p>
 <p>　flask应用的运行</p>
-<p>　<img src="/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/run.png" class="" title="运行"></p>
+<p>　<img src="/yz1000.git/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/run.png" class="" title="运行"></p>
 <p>　上图是官方文档给出的具体运行方式。这里主要解释下这样做的具体涵义和原因。</p>
 <p>运行分为两步：</p>
 <ol>
@@ -132,9 +132,9 @@
   </entry>
   <entry>
     <title>postman的使用</title>
-    <url>/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <url>/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>​    本博文主要从下图中的五个部分介绍postman的简单使用。</p>
-<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png" class="" title="首页"></p>
+<p>​    <img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png" class="" title="首页"></p>
 <p>1.请求方式 2.请求地址 3.请求参数 4.保存 5.环境变量</p>
 <hr>
 <p>​    <a id="more"></a></p>
@@ -151,7 +151,7 @@
 <p>注：</p>
 <ul>
 <li><p>传输数组。以数组ids为例：</p>
-<img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png" class="" title="数组ids">
+<img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png" class="" title="数组ids">
 </li>
 <li><p>params中的参数会自动跟在链接后面，Body中的参数不会。</p>
 </li>
@@ -162,7 +162,7 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;&#123;token&#125;&#125;</span><br></pre></td></tr></table></figure>
 
 <p>以引用环境变量（type选 Bearer Token）。</p>
-<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png" class="" title="token"></p>
+<p>​    <img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png" class="" title="token"></p>
 <p>具体怎么设置token环境变量，可以百度。</p>
 ]]></content>
       <tags>
@@ -171,24 +171,24 @@
   </entry>
   <entry>
     <title>git多人项目常用命令</title>
-    <url>/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <url>/yz1000.git/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p>​    作为一个git新手，做项目的时候，经常各种代码版本问题搞得头大，所以就把各种常用命令记录了下来。</p>
 <a id="more"></a>
 
-<img src="/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/command.png" class="" title="git命令">]]></content>
+<img src="/yz1000.git/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/command.png" class="" title="git命令">]]></content>
       <tags>
         <tag>git命令</tag>
       </tags>
   </entry>
   <entry>
     <title>不完美越狱插件导致不能开机</title>
-    <url>/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/</url>
+    <url>/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/</url>
     <content><![CDATA[<h2 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h2><p>​    <strong>机型</strong>：iPhone8 iOS 13.3.1</p>
 <p>​    <strong>越狱方式</strong>: Linux + checkra1n</p>
 <p>​    安装了一个插件后，卡在重启springboard界面，只能强制关机重启（按一下音量+,按一下音量-，再长按关机键）。重启后自然入狱。</p>
 <p>​    尝试再次越狱，然后卡在了 Entered download mode界面,强制重启后白苹果。再次强制重启进入入狱状态(正常启动，但是没有越狱)。</p>
-<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p1.png" class="" width="300"></p>
-<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p2.JPG" class="" width="300"></p>
+<p>​    <img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p1.png" class="" width="300"></p>
+<p>​    <img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p2.JPG" class="" width="300"></p>
 <a id="more"></a>
 
 <h2 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h2><p>​    当卡在Entered download mode 界面的时候其实已经完成越狱，但是安装的插件导致不能以越狱状态启动。</p>
@@ -196,10 +196,10 @@
 <li><p>先强制重启进入未越狱状态的系统</p>
 </li>
 <li><p>打开越狱工具，选择Options</p>
-<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p3.png" class="" width="500">
+<img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p3.png" class="" width="500">
 </li>
 <li><p>选中安全模式(safe mode)，然后返回。</p>
-<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p4.png" class="" width="500">
+<img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p4.png" class="" width="500">
 
 <p>越狱后将以安全模式启动</p>
 </li>
@@ -220,7 +220,7 @@
   </entry>
   <entry>
     <title>乌班图换源(没有vim的情况)</title>
-    <url>/2020/02/20/%E4%B9%8C%E7%8F%AD%E5%9B%BE%E6%8D%A2%E6%BA%90-%E6%B2%A1%E6%9C%89vim%E7%9A%84%E6%83%85%E5%86%B5/</url>
+    <url>/yz1000.git/2020/02/20/%E4%B9%8C%E7%8F%AD%E5%9B%BE%E6%8D%A2%E6%BA%90-%E6%B2%A1%E6%9C%89vim%E7%9A%84%E6%83%85%E5%86%B5/</url>
     <content><![CDATA[<p>背景：安装了乌班图LTS，里面很精简，很多常用的工具都没有，需要手动安装，但是外网下载太慢，需要换源。网上多数乌班图换源需要用到vim编辑器，但是vim也需要自己下载。所以有了此教程，先换源，再下载vim … 等其它软件。</p>
 <a id="more"></a>
 
@@ -248,7 +248,7 @@
   </entry>
   <entry>
     <title>sublime3 配置 c#环境</title>
-    <url>/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/</url>
+    <url>/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<p>主要步骤：</p>
 <ul>
 <li><p>1.<strong>下载并安装sublime 与 .NET Framework</strong></p>
@@ -269,41 +269,41 @@
 <h3 id="1-下载并安装sublime-与-NET-Framework"><a href="#1-下载并安装sublime-与-NET-Framework" class="headerlink" title="1.下载并安装sublime 与 .NET Framework"></a>1.下载并安装sublime 与 .NET Framework</h3><p><a href="https://www.sublimetext.com/" target="_blank" rel="noopener">sublime官网</a><br><a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=42642" target="_blank" rel="noopener">.NET Framework官网</a><br>或者这里，啥都能<a href="https://www.baidu.com" target="_blank" rel="noopener">下载</a><br>安装 .NET的时候记住安装目录，一般默认就行</p>
 <h3 id="2-配置环境变量"><a href="#2-配置环境变量" class="headerlink" title="2.配置环境变量"></a>2.配置环境变量</h3><ul>
 <li><p><strong>配置</strong><br>我的.NET安装在默认目录，我们要用路径<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>下的可执行程序<code>csc.exe</code>。</p>
-<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
+<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
 
 
 </li>
 </ul>
 <p>  右键我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量，在系统变量中找到Path，双击，新建，将<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>填入，然后确认。</p>
-  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
+  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
 
-  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
+  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
 
-  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
+  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
 
-  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
+  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
 
 <ul>
 <li><strong>检查</strong><br><code>Ctrl + R</code>打开运行小窗口，输入<code>cmd</code>，确认，在命令窗口输入<code>csc</code>,弹出以下界面就说明配置成功了，否则检查以上步骤。<h3 id="3-编写批处理脚本runCsharp-bat"><a href="#3-编写批处理脚本runCsharp-bat" class="headerlink" title="3.编写批处理脚本runCsharp.bat"></a>3.编写批处理脚本runCsharp.bat</h3>在目录<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code> ( 其它在path环境的路径也可以 ) 下创建文件<code>runCsharp.bat</code>，编辑内容。<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">cd %~dp1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	del %~n1.exe</span><br><span class="line">)</span><br><span class="line">csc %~nx1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	echo cmd: ./%~n1.exe </span><br><span class="line">	start %~n1</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 <s>如果这个目录下不能创建文件，可以在桌面创建，复制进去。</s><h3 id="4-定制sublime-text对C-的编译系统"><a href="#4-定制sublime-text对C-的编译系统" class="headerlink" title="4.定制sublime text对C#的编译系统"></a>4.定制sublime text对C#的编译系统</h3>打开sublime 软件，依次选择 tools -&gt; Build System -&gt; New Build System 。新建文件<code>CSharp.sublime-build</code> , 内容为:<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="string">"cmd"</span>: [<span class="string">"runCSharp.bat"</span>, <span class="string">"$file"</span>],</span><br><span class="line">	<span class="string">"file_regex"</span>: <span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span>,</span><br><span class="line">	<span class="string">"selector"</span>: <span class="string">"source.cs"</span>,</span><br><span class="line">	<span class="string">"encoding"</span>: <span class="string">"cp936"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 </li>
 </ul>
-<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 <p><s>记得保存！</s></p>
 <h3 id="5-测试"><a href="#5-测试" class="headerlink" title="5.测试"></a>5.测试</h3><p>编写个简单的hello world程序测试一下！<br>新建一个文件<code>HelloWorld.cs</code> , 输入以下内容</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Demo</span> </span>&#123;</span><br><span class="line">	<span class="keyword">static</span> <span class="keyword">void</span> Main(string[] args) &#123;</span><br><span class="line">		Console.WriteLine(<span class="string">"Hello World!"</span>);</span><br><span class="line">		Console.Read();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>按住Ctrl+B，选择自己刚才在第四步配置的编译系统，Enter！</p>
-<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">]]></content>
+<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">]]></content>
       <tags>
         <tag>sublime C# CSharp</tag>
       </tags>
   </entry>
   <entry>
     <title>C/C++语言杂记</title>
-    <url>/2019/08/15/C-C-%E8%AF%AD%E8%A8%80%E6%9D%82%E8%AE%B0/</url>
+    <url>/yz1000.git/2019/08/15/C-C-%E8%AF%AD%E8%A8%80%E6%9D%82%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="C-语言-字符串输入"><a href="#C-语言-字符串输入" class="headerlink" title="C 语言-字符串输入"></a>C 语言-字符串输入</h1><p>C 库函数 <strong>char *gets(char *str)</strong> 从标准输入 stdin 读取一行，并把它存储在 str 所指向的字符串中。<strong>当读取到换行符时，或者到达文件末尾时</strong>，它会停止，具体视情况而定。</p>
 <p>scanf() 期待输入的格式与您给出的 %s 和 %d 相同，这意味着您必须提供有效的输入，比如 “string integer”，如果您提供的是 “string string” 或 “integer integer”，它会被认为是错误的输入。另外，<strong>在读取字符串时，只要遇到一个空格</strong>，scanf() 就会停止读取。</p>
 <h2 id="字符串转数字"><a href="#字符串转数字" class="headerlink" title="字符串转数字"></a>字符串转数字</h2><p>atoi (表示 alphanumeric to integer)。windows 环境下，在 &lt;stdlib.h&gt; 头文件中。</p>
@@ -318,7 +318,7 @@
   </entry>
   <entry>
     <title>设计模式的学习笔记</title>
-    <url>/2019/07/25/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <url>/yz1000.git/2019/07/25/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="设计模式简介"><a href="#设计模式简介" class="headerlink" title="设计模式简介"></a>设计模式简介</h2><p>设计模式 (Design pattern) 是软件开发人员再软件开发人员在软件开发过程中面临的一般问题的解决方案。这些解决方案是一代代前辈反复验证后，总结出来的。</p>
 <a id="more"></a>
 
