@@ -117,7 +117,7 @@
 <p>　第三行是一个装饰器，他的作用是：当你访问前端网站根目录时，前端会向后端请求根目录处理逻辑，后端服务器会给前端返回 被本装饰器装饰的函数 的运行结果。(1. 本行中(‘/‘)代表服务器根目录。 2. 装饰器会作用于他后面紧跟着的那个函数。)</p>
 <p>​    <strong>附：</strong></p>
 <p>　flask应用的运行</p>
-<p>　<img src="/yz1000.git/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/run.png" class="" title="运行"></p>
+<p>　<img src="/2020/02/22/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84flask%E5%BA%94%E7%94%A8/run.png" class="" title="运行"></p>
 <p>　上图是官方文档给出的具体运行方式。这里主要解释下这样做的具体涵义和原因。</p>
 <p>运行分为两步：</p>
 <ol>
@@ -134,7 +134,7 @@
     <title>postman的使用</title>
     <url>/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>​    本博文主要从下图中的五个部分介绍postman的简单使用。</p>
-<p>​    <img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png" class="" title="首页"></p>
+<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/home.png" class="" title="首页"></p>
 <p>1.请求方式 2.请求地址 3.请求参数 4.保存 5.环境变量</p>
 <hr>
 <p>​    <a id="more"></a></p>
@@ -151,7 +151,7 @@
 <p>注：</p>
 <ul>
 <li><p>传输数组。以数组ids为例：</p>
-<img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png" class="" title="数组ids">
+<img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/array.png" class="" title="数组ids">
 </li>
 <li><p>params中的参数会自动跟在链接后面，Body中的参数不会。</p>
 </li>
@@ -162,7 +162,7 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&#123;&#123;token&#125;&#125;</span><br></pre></td></tr></table></figure>
 
 <p>以引用环境变量（type选 Bearer Token）。</p>
-<p>​    <img src="/yz1000.git/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png" class="" title="token"></p>
+<p>​    <img src="/2020/02/21/postman%E7%9A%84%E4%BD%BF%E7%94%A8/token.png" class="" title="token"></p>
 <p>具体怎么设置token环境变量，可以百度。</p>
 ]]></content>
       <tags>
@@ -175,7 +175,7 @@
     <content><![CDATA[<p>​    作为一个git新手，做项目的时候，经常各种代码版本问题搞得头大，所以就把各种常用命令记录了下来。</p>
 <a id="more"></a>
 
-<img src="/yz1000.git/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/command.png" class="" title="git命令">]]></content>
+<img src="/2020/02/21/git%E5%A4%9A%E4%BA%BA%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/command.png" class="" title="git命令">]]></content>
       <tags>
         <tag>git命令</tag>
       </tags>
@@ -187,8 +187,8 @@
 <p>​    <strong>越狱方式</strong>: Linux + checkra1n</p>
 <p>​    安装了一个插件后，卡在重启springboard界面，只能强制关机重启（按一下音量+,按一下音量-，再长按关机键）。重启后自然入狱。</p>
 <p>​    尝试再次越狱，然后卡在了 Entered download mode界面,强制重启后白苹果。再次强制重启进入入狱状态(正常启动，但是没有越狱)。</p>
-<p>​    <img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p1.png" class="" width="300"></p>
-<p>​    <img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p2.JPG" class="" width="300"></p>
+<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p1.png" class="" width="300"></p>
+<p>​    <img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p2.JPG" class="" width="300"></p>
 <a id="more"></a>
 
 <h2 id="分析："><a href="#分析：" class="headerlink" title="分析："></a>分析：</h2><p>​    当卡在Entered download mode 界面的时候其实已经完成越狱，但是安装的插件导致不能以越狱状态启动。</p>
@@ -196,10 +196,10 @@
 <li><p>先强制重启进入未越狱状态的系统</p>
 </li>
 <li><p>打开越狱工具，选择Options</p>
-<img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p3.png" class="" width="500">
+<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p3.png" class="" width="500">
 </li>
 <li><p>选中安全模式(safe mode)，然后返回。</p>
-<img src="/yz1000.git/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p4.png" class="" width="500">
+<img src="/2020/02/21/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E8%B6%8A%E7%8B%B1%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4%E4%B8%8D%E8%83%BD%E5%BC%80%E6%9C%BA/p4.png" class="" width="500">
 
 <p>越狱后将以安全模式启动</p>
 </li>
@@ -269,34 +269,34 @@
 <h3 id="1-下载并安装sublime-与-NET-Framework"><a href="#1-下载并安装sublime-与-NET-Framework" class="headerlink" title="1.下载并安装sublime 与 .NET Framework"></a>1.下载并安装sublime 与 .NET Framework</h3><p><a href="https://www.sublimetext.com/" target="_blank" rel="noopener">sublime官网</a><br><a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=42642" target="_blank" rel="noopener">.NET Framework官网</a><br>或者这里，啥都能<a href="https://www.baidu.com" target="_blank" rel="noopener">下载</a><br>安装 .NET的时候记住安装目录，一般默认就行</p>
 <h3 id="2-配置环境变量"><a href="#2-配置环境变量" class="headerlink" title="2.配置环境变量"></a>2.配置环境变量</h3><ul>
 <li><p><strong>配置</strong><br>我的.NET安装在默认目录，我们要用路径<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>下的可执行程序<code>csc.exe</code>。</p>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
 
 
 </li>
 </ul>
 <p>  右键我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量，在系统变量中找到Path，双击，新建，将<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>填入，然后确认。</p>
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
 
 <ul>
 <li><strong>检查</strong><br><code>Ctrl + R</code>打开运行小窗口，输入<code>cmd</code>，确认，在命令窗口输入<code>csc</code>,弹出以下界面就说明配置成功了，否则检查以上步骤。<h3 id="3-编写批处理脚本runCsharp-bat"><a href="#3-编写批处理脚本runCsharp-bat" class="headerlink" title="3.编写批处理脚本runCsharp.bat"></a>3.编写批处理脚本runCsharp.bat</h3>在目录<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code> ( 其它在path环境的路径也可以 ) 下创建文件<code>runCsharp.bat</code>，编辑内容。<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line">cd %~dp1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	del %~n1.exe</span><br><span class="line">)</span><br><span class="line">csc %~nx1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	echo cmd: ./%~n1.exe </span><br><span class="line">	start %~n1</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 <s>如果这个目录下不能创建文件，可以在桌面创建，复制进去。</s><h3 id="4-定制sublime-text对C-的编译系统"><a href="#4-定制sublime-text对C-的编译系统" class="headerlink" title="4.定制sublime text对C#的编译系统"></a>4.定制sublime text对C#的编译系统</h3>打开sublime 软件，依次选择 tools -&gt; Build System -&gt; New Build System 。新建文件<code>CSharp.sublime-build</code> , 内容为:<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="string">"cmd"</span>: [<span class="string">"runCSharp.bat"</span>, <span class="string">"$file"</span>],</span><br><span class="line">	<span class="string">"file_regex"</span>: <span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span>,</span><br><span class="line">	<span class="string">"selector"</span>: <span class="string">"source.cs"</span>,</span><br><span class="line">	<span class="string">"encoding"</span>: <span class="string">"cp936"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 </li>
 </ul>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 <p><s>记得保存！</s></p>
 <h3 id="5-测试"><a href="#5-测试" class="headerlink" title="5.测试"></a>5.测试</h3><p>编写个简单的hello world程序测试一下！<br>新建一个文件<code>HelloWorld.cs</code> , 输入以下内容</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">using System;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Demo</span> </span>&#123;</span><br><span class="line">	<span class="keyword">static</span> <span class="keyword">void</span> Main(string[] args) &#123;</span><br><span class="line">		Console.WriteLine(<span class="string">"Hello World!"</span>);</span><br><span class="line">		Console.Read();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>按住Ctrl+B，选择自己刚才在第四步配置的编译系统，Enter！</p>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">]]></content>
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">]]></content>
       <tags>
         <tag>sublime C# CSharp</tag>
       </tags>

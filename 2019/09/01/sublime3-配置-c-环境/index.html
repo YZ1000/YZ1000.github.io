@@ -27,20 +27,20 @@
 <meta property="og:site_name" content="袁喆的博客">
 <meta property="og:description" content="主要步骤：  1.下载并安装sublime 与 .NET Framework  2.配置环境变量  3.编写批处理脚本runCsharp.bat  4.定制sublime text对C#的编译系统  5.测试">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png">
-<meta property="og:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png">
 <meta property="article:published_time" content="2019-09-01T08:15:31.000Z">
 <meta property="article:modified_time" content="2020-02-20T16:17:09.272Z">
 <meta property="article:author" content="leo">
 <meta property="article:tag" content="sublime C# CSharp">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png">
 
 <link rel="canonical" href="http://yoursite.com/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/">
 
@@ -274,34 +274,34 @@
 <h3 id="1-下载并安装sublime-与-NET-Framework"><a href="#1-下载并安装sublime-与-NET-Framework" class="headerlink" title="1.下载并安装sublime 与 .NET Framework"></a>1.下载并安装sublime 与 .NET Framework</h3><p><a href="https://www.sublimetext.com/" target="_blank" rel="noopener">sublime官网</a><br><a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=42642" target="_blank" rel="noopener">.NET Framework官网</a><br>或者这里，啥都能<a href="https://www.baidu.com" target="_blank" rel="noopener">下载</a><br>安装 .NET的时候记住安装目录，一般默认就行</p>
 <h3 id="2-配置环境变量"><a href="#2-配置环境变量" class="headerlink" title="2.配置环境变量"></a>2.配置环境变量</h3><ul>
 <li><p><strong>配置</strong><br>我的.NET安装在默认目录，我们要用路径<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>下的可执行程序<code>csc.exe</code>。</p>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.1.png" class="" title="2.1">
 
 
 </li>
 </ul>
 <p>  右键我的电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量，在系统变量中找到Path，双击，新建，将<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code>填入，然后确认。</p>
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.2.png" class="" title="2.2">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.3.png" class="" title="2.3">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.4.png" class="" title="2.4">
 
-  <img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
+  <img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p2.5.png" class="" title="2.5">
 
 <ul>
 <li><strong>检查</strong><br><code>Ctrl + R</code>打开运行小窗口，输入<code>cmd</code>，确认，在命令窗口输入<code>csc</code>,弹出以下界面就说明配置成功了，否则检查以上步骤。<h3 id="3-编写批处理脚本runCsharp-bat"><a href="#3-编写批处理脚本runCsharp-bat" class="headerlink" title="3.编写批处理脚本runCsharp.bat"></a>3.编写批处理脚本runCsharp.bat</h3>在目录<code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code> ( 其它在path环境的路径也可以 ) 下创建文件<code>runCsharp.bat</code>，编辑内容。<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">cd %~dp1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	del %~n1.exe</span><br><span class="line">)</span><br><span class="line">csc %~nx1</span><br><span class="line"><span class="keyword">if</span> exist %~n1.exe (</span><br><span class="line">	echo cmd: ./%~n1.exe </span><br><span class="line">	start %~n1</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
 <s>如果这个目录下不能创建文件，可以在桌面创建，复制进去。</s><h3 id="4-定制sublime-text对C-的编译系统"><a href="#4-定制sublime-text对C-的编译系统" class="headerlink" title="4.定制sublime text对C#的编译系统"></a>4.定制sublime text对C#的编译系统</h3>打开sublime 软件，依次选择 tools -&gt; Build System -&gt; New Build System 。新建文件<code>CSharp.sublime-build</code> , 内容为:<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="string">"cmd"</span>: [<span class="string">"runCSharp.bat"</span>, <span class="string">"$file"</span>],</span><br><span class="line">	<span class="string">"file_regex"</span>: <span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span>,</span><br><span class="line">	<span class="string">"selector"</span>: <span class="string">"source.cs"</span>,</span><br><span class="line">	<span class="string">"encoding"</span>: <span class="string">"cp936"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 </li>
 </ul>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p4.1.png" class="" title="4.1">
 
 <p><s>记得保存！</s></p>
 <h3 id="5-测试"><a href="#5-测试" class="headerlink" title="5.测试"></a>5.测试</h3><p>编写个简单的hello world程序测试一下！<br>新建一个文件<code>HelloWorld.cs</code> , 输入以下内容</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Demo</span> </span>&#123;</span><br><span class="line">	<span class="keyword">static</span> <span class="keyword">void</span> Main(string[] args) &#123;</span><br><span class="line">		Console.WriteLine(<span class="string">"Hello World!"</span>);</span><br><span class="line">		Console.Read();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>按住Ctrl+B，选择自己刚才在第四步配置的编译系统，Enter！</p>
-<img src="/yz1000.git/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">
+<img src="/2019/09/01/sublime3-%E9%85%8D%E7%BD%AE-c-%E7%8E%AF%E5%A2%83/p5.1.png" class="" title="5.1">
     </div>
 
     
