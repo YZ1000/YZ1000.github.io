@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Vue-Element开发：薛定谔的跳转路径</title>
+    <title>vue+element开发小问题记录</title>
+    <url>/2020/05/27/vue-element%E5%BC%80%E5%8F%91%E5%B0%8F%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h3 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h3><ol>
+<li><p>element-ui分割线不显示</p>
+</li>
+<li><p>表单验证输入了值却提示不能为空</p>
+</li>
+<li><p>在axios回调函数中，this为undefined</p>
+</li>
+<li><p>获取离现在最近的一个整10分</p>
+<a id="more"></a>
+</li>
+<li><h3 id="element-ui分割线不显示"><a href="#element-ui分割线不显示" class="headerlink" title="element-ui分割线不显示"></a>element-ui分割线不显示</h3><p>分析：一般是网页大小不合适</p>
+<p>解决：按住ctrl，滚动鼠标滑轮，调整网页显示大小为100%</p>
+</li>
+<li><h3 id="表单验证输入了值却提示不能为空"><a href="#表单验证输入了值却提示不能为空" class="headerlink" title="表单验证输入了值却提示不能为空"></a>表单验证输入了值却提示不能为空</h3><p>分析：输入的值没能传入到验证规则rules所绑定的值</p>
+<p>情况1：item的prop属性与你的输入框绑定的值不一致</p>
+<p>　正确示例：item: prop=”name”　input:v-model=”form.name”</p>
+<p>情况2：表单form没有绑定值</p>
+<p>　正确示例：form : :model=”form”</p>
+</li>
+<li><h3 id="在axios回调函数中，this为undefined"><a href="#在axios回调函数中，this为undefined" class="headerlink" title="在axios回调函数中，this为undefined"></a>在axios回调函数中，this为undefined</h3><p>分析：</p>
+<p>解决方案1：</p>
+<p>　使用箭头函数代替匿名函数</p>
+<p>解决方案2：</p>
+<p>　在进入axios之前将this保存。如:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> that = <span class="keyword">this</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h3 id="获取离现在最近的一个整10分"><a href="#获取离现在最近的一个整10分" class="headerlink" title="获取离现在最近的一个整10分"></a>获取离现在最近的一个整10分</h3><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">	<span class="keyword">let</span> now = <span class="keyword">new</span> <span class="built_in">Date</span>()</span><br><span class="line">	<span class="comment">// （现在）-（现在比最近的一个整10分多出来的毫秒数）</span></span><br><span class="line">	<span class="keyword">return</span> now - ( now % <span class="number">600000</span>) </span><br><span class="line">&#125; </span><br><span class="line"><span class="comment">// 10分钟对应600 000毫秒，同理可得到离现在最近的一天，一月，一年 ...</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo常用命令</title>
+    <url>/2020/05/27/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>　　本文用来帮助记录一些hexo博客使用过程中的常用命令。防止后面忘记</p>
+<a id="more"></a>
+
+<h3 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2. 新建文章"></a>2. 新建文章</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+
+<p>在source &gt; _posts 目录下编辑</p>
+<h3 id="3-网站发布"><a href="#3-网站发布" class="headerlink" title="3. 网站发布"></a>3. 网站发布</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>生成静态网页。generate可简化为 g。</p>
+<p>生成前建议先清理缓存</p>
+<h3 id="4-部署"><a href="#4-部署" class="headerlink" title="4. 部署"></a>4. 部署</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>deploy可简化为 d。</p>
+<h3 id="5-清理缓存"><a href="#5-清理缓存" class="headerlink" title="5. 清理缓存"></a>5. 清理缓存</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-启动本地服务"><a href="#6-启动本地服务" class="headerlink" title="6. 启动本地服务"></a>6. 启动本地服务</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>默认访问地址为 localhost:4000。</p>
+<p>可用</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo server -p 5000</span><br></pre></td></tr></table></figure>
+
+<p>指定端口</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Vue+Element开发：薛定谔的跳转路径</title>
     <url>/2020/02/29/Vue-Element%E5%BC%80%E5%8F%91%EF%BC%9A%E8%96%9B%E5%AE%9A%E8%B0%94%E7%9A%84%E8%B7%B3%E8%BD%AC%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<hr>
-<p>title: Vue+Element开发：薛定谔的跳转路径<br>date: 2020-02-29 00:11:46<br>tags:</p>
-<hr>
-<p>开发环境: nodejs:13.9.0 vue:2.5.2 element-ui:2.13.0<br>　　element-ui的navmenu组件提供了route属性，点击item直接跳转item的index属性对应的路由。但是当我点击item是,跳转到路由路径有时候正确，有时候不正确。以item1（index：1-1）为例，正确的路由路径应该是 <a href="http://localhost:8080/#/overview/1-1,但是我点击后却跳转的是http://localhost:8080/#/1-1。" target="_blank" rel="noopener">http://localhost:8080/#/overview/1-1,但是我点击后却跳转的是http://localhost:8080/#/1-1。</a><br>　　最先想到的是将item1的index改成overview/1-1（其它item也做类似修改）。改了之后神奇的事发生了。<br>情况1：有的item跳转路径是<a href="http://localhost:8080/#/overview/1-1，这种样子，有的会跳转到http://localhost:8080/#/overview/overview/1-1。" target="_blank" rel="noopener">http://localhost:8080/#/overview/1-1，这种样子，有的会跳转到http://localhost:8080/#/overview/overview/1-1。</a><br>情况2：本来都跳转链接正常，过了一会跳转链接的拼接又出错了。</p>
+    <content><![CDATA[<p>开发环境: nodejs:13.9.0 vue:2.5.2 element-ui:2.13.0</p>
+<p><strong>问题描述：</strong>　　</p>
+<p>　　element-ui的navmenu组件提供了route属性，点击item直接跳转item的index属性对应的路由。但是当我点击item是,<strong>跳转到路由路径有时候正确，有时候不正确</strong>。以item1（index：1-1）为例，正确的路由路径应该是 <a href="http://localhost:8080/#/overview/1-1,但是我点击后却跳转的是http://localhost:8080/#/1-1。" target="_blank" rel="noopener">http://localhost:8080/#/overview/1-1,但是我点击后却跳转的是http://localhost:8080/#/1-1。</a><br>　　本文针对这种代码没有任何修改，拼接出来的路径却不一样的情况进行分析及解决。</p>
+<a id="more"></a>
+
+
 <p>子路由的跟地址是 </p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://localhost:8080/#/overview</span><br></pre></td></tr></table></figure>
 <p>正常访问其子页面</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 主路由，其中 /overview 有子路由</span></span><br><span class="line"><span class="keyword">const</span> routes = [</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">// 路由重定向</span></span><br><span class="line">    path: <span class="string">'/'</span>,</span><br><span class="line">    redirect: <span class="string">'/login'</span>,</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'/overview'</span>,</span><br><span class="line">    name: <span class="string">'WaterDisplay'</span>,</span><br><span class="line">    component: WaterDisplay,</span><br><span class="line">    children: overviewRouter</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'/login'</span>,</span><br><span class="line">    name: <span class="string">'Login'</span>,</span><br><span class="line">    component: Login</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 子路由</span></span><br><span class="line"><span class="keyword">const</span> overviewRouter = [</span><br><span class="line">  &#123;</span><br><span class="line">   path: <span class="string">''</span>,</span><br><span class="line">    redirect: <span class="string">'0'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'0'</span>,</span><br><span class="line">    component: InformationSummary</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-1'</span>,</span><br><span class="line">    component: WaterDispatch</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-2'</span>,</span><br><span class="line">    component: WaterDispatchInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'2-1'</span>,</span><br><span class="line">    component:BranchOperation</span><br><span class="line">  &#125;,</span><br><span class="line">  ...</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'5-2'</span>,</span><br><span class="line">    component: TrafficStatisticsInput</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 子路由</span></span><br><span class="line"><span class="keyword">const</span> overviewRouter = [</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'0'</span>,</span><br><span class="line">    component: InformationSummary</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-1'</span>,</span><br><span class="line">    component: WaterDispatch</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-2'</span>,</span><br><span class="line">    component: WaterDispatchInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'2-1'</span>,</span><br><span class="line">    component:BranchOperation</span><br><span class="line">  &#125;,</span><br><span class="line">  ...</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'5-2'</span>,</span><br><span class="line">    component: TrafficStatisticsInput</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<p><strong>分析：</strong> </p>
+<p>目前在文档中没看到相关说明，应该是个BUG。</p>
+<p><strong>解决方案：</strong></p>
+<p>给子路由的空路径添加一个转向：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 添加了空路径转向的子路由</span></span><br><span class="line"><span class="keyword">const</span> overviewRouter = [</span><br><span class="line">  &#123;  <span class="comment">// 子路由中新增的代码</span></span><br><span class="line">    path: <span class="string">''</span>,</span><br><span class="line">    redirect: <span class="string">'0'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'0'</span>,</span><br><span class="line">    component: InformationSummary</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-1'</span>,</span><br><span class="line">    component: WaterDispatch</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'1-2'</span>,</span><br><span class="line">    component: WaterDispatchInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'2-1'</span>,</span><br><span class="line">    component: BranchOperation</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'2-2'</span>,</span><br><span class="line">    component: BranchOperationInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'3-1'</span>,</span><br><span class="line">    component: PumpStation</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'3-2'</span>,</span><br><span class="line">    component: PumpStationInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'4-1'</span>,</span><br><span class="line">    component: WaterDistribution</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'4-2'</span>,</span><br><span class="line">    component: WaterDistributionInput</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'5-1'</span>,</span><br><span class="line">    component: TrafficStatistics</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    path: <span class="string">'5-2'</span>,</span><br><span class="line">    component: TrafficStatisticsInput</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
   </entry>
   <entry>
     <title>flask-mongoengine</title>
