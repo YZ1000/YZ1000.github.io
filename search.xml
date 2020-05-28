@@ -4,15 +4,14 @@
     <title>vue+element开发小问题记录</title>
     <url>/2020/05/27/vue-element%E5%BC%80%E5%8F%91%E5%B0%8F%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h3 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h3><ol>
-<li><p>element-ui分割线不显示</p>
-</li>
-<li><p>表单验证输入了值却提示不能为空</p>
-</li>
-<li><p>在axios回调函数中，this为undefined</p>
-</li>
-<li><p>获取离现在最近的一个整10分</p>
+<li>element-ui分割线不显示</li>
+<li>表单验证输入了值却提示不能为空</li>
+<li>在axios回调函数中，this为undefined</li>
+<li>获取离现在最近的一个整10分</li>
+</ol>
 <a id="more"></a>
-</li>
+
+<ol>
 <li><h3 id="element-ui分割线不显示"><a href="#element-ui分割线不显示" class="headerlink" title="element-ui分割线不显示"></a>element-ui分割线不显示</h3><p>分析：一般是网页大小不合适</p>
 <p>解决：按住ctrl，滚动鼠标滑轮，调整网页显示大小为100%</p>
 </li>
